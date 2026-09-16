@@ -54,7 +54,7 @@ async function getHotList(ctx) {
         }
     }
 
-    const apiUrl = 'https://gateway.36kr.com/api/mis/nav/home/nav/rank';
+    const apiUrl = 'https://gateway.36kr.com/api/mis/nav/home/nav/rank/hot';
 
     const response = await got({
         method: 'post',
