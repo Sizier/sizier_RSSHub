@@ -464,9 +464,6 @@
   "/rebase/geekdaily": [
     "gaoyifan"
   ],
-  "/rockstargames/socialclub/events/:game?": [
-    "kookxiang"
-  ],
   "/rss3/:account/:network?/:tag?": [
     "DIYgod",
     "pseudoyu"
@@ -1173,6 +1170,12 @@
   "/qutoutiao/category/:cid": [
     "alphardex",
     "LogicJake"
+  ],
+  "/rockstargames/socialclub/events/:game?": [
+    "kookxiang"
+  ],
+  "/rockstargames/newswire": [
+    "dapexyz"
   ],
   "/skebetter/illust/:type": [
     "SnowAgar25"
@@ -5335,6 +5338,9 @@
   "/hubu/zhxy/:category{.+}?": [
     "nczitzk"
   ],
+  "/huggingface/datasets/:author": [
+    "Cod1doc"
+  ],
   "/huggingface/activity/:user/likes": [
     "dotwee"
   ],
@@ -7185,6 +7191,9 @@
   "/perplexity/changelog": [
     "xbot"
   ],
+  "/petapixel/:category?": [
+    "IvanWng97"
+  ],
   "/peterwunder/achievements": [
     "LinxHex"
   ],
@@ -8751,8 +8760,9 @@
   "/u9a9/search/:keyword/:preview?": [
     "TonyRL"
   ],
-  "/uber/blog/:compat?": [
-    "hulb"
+  "/uber/blog/:category?": [
+    "hulb",
+    "zhsama"
   ],
   "/ucas/ai": [
     "shengmaosu"
@@ -9302,6 +9312,9 @@
   ],
   "/xmanhua/:uid": [
     "Ye11"
+  ],
+  "/xmlcom/": [
+    "AboutRSS"
   ],
   "/xmnn/epaper/:id?": [
     "nczitzk"
@@ -9946,10 +9959,10 @@
   "/bilibili/mall/new/:category?": [
     "DIYgod"
   ],
-  "/bilibili/readlist/:listid": [
+  "/bilibili/manga/update/:comicid": [
     "hoilc"
   ],
-  "/bilibili/manga/update/:comicid": [
+  "/bilibili/readlist/:listid": [
     "hoilc"
   ],
   "/bilibili/bangumi/media/:mediaid/:embed?": [
@@ -12290,6 +12303,10 @@
   "/zhihu/people/pins/:id": [
     "xyqfer"
   ],
+  "/zhihu/daily": [
+    "DHPO",
+    "pseudoyu"
+  ],
   "/zhihu/xhu/people/answers/:hexId": [
     "JimenezLi"
   ],
@@ -12304,18 +12321,11 @@
     "Colin-XKL",
     "Fatpandac"
   ],
-  "/zhihu/daily": [
-    "DHPO",
-    "pseudoyu"
-  ],
   "/zhihu/weekly": [
     "LogicJake"
   ],
   "/zhihu/xhu/zhuanlan/:id": [
     "JimenezLi"
-  ],
-  "/zhihu/zhuanlan/:id": [
-    "DIYgod"
   ],
   "/zhihu/people/activities/:id": [
     "DIYgod"
@@ -12352,6 +12362,9 @@
   ],
   "/zhihu/xhu/topic/:topicId": [
     "JimenezLi"
+  ],
+  "/zhihu/zhuanlan/:id": [
+    "DIYgod"
   ],
   "/finology/bullets": [
     "Rjnishant530"
@@ -12478,6 +12491,9 @@
   ],
   "/youtube/playlist/:id/:embed?": [
     "HenryQW"
+  ],
+  "/youtube/streams/:handle/:routeParams?": [
+    "ouuan"
   ],
   "/youtube/user/:username/:routeParams?": [
     "DIYgod",

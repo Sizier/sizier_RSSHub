@@ -4143,6 +4143,19 @@
       }
     ]
   },
+  "rockstargames.com": {
+    "_name": "Rockstar Games",
+    "www": [
+      {
+        "title": "Newswire",
+        "docs": "https://docs.rsshub.app/routes/game",
+        "source": [
+          "/newswire"
+        ],
+        "target": "/rockstargames/newswire"
+      }
+    ]
+  },
   "skebetter.com": {
     "_name": "Skebetter",
     ".": [
@@ -36161,6 +36174,20 @@
       }
     ]
   },
+  "petapixel.com": {
+    "_name": "PetaPixel",
+    ".": [
+      {
+        "title": "Posts",
+        "docs": "https://docs.rsshub.app/routes/picture",
+        "source": [
+          "/topic/:category",
+          "/"
+        ],
+        "target": "/petapixel/:category?"
+      }
+    ]
+  },
   "peterwunder.de": {
     "_name": "Peter Wunder",
     "projects": [
@@ -42697,14 +42724,25 @@
   },
   "uber.com": {
     "_name": "Uber",
+    "eng": [
+      {
+        "title": "Engineering",
+        "docs": "https://docs.rsshub.app/routes/blog",
+        "source": [
+          "/",
+          "/:country/:language/blog/engineering"
+        ],
+        "target": "/uber/blog"
+      }
+    ],
     "www": [
       {
         "title": "Engineering",
         "docs": "https://docs.rsshub.app/routes/blog",
         "source": [
-          "/:language/blog/engineering"
+          "/:country/:language/blog/engineering/:category"
         ],
-        "target": "/uber/blog"
+        "target": "/uber/blog/:category"
       }
     ]
   },
@@ -44266,6 +44304,19 @@
           "/:uid"
         ],
         "target": "/xmanhua/:uid"
+      }
+    ]
+  },
+  "xml.com": {
+    "_name": "XML.com",
+    "www": [
+      {
+        "title": "Articles and News",
+        "docs": "https://docs.rsshub.app/routes/programming",
+        "source": [
+          "/"
+        ],
+        "target": "/xmlcom/"
       }
     ]
   },
@@ -49159,36 +49210,36 @@
     "_name": "中华人民共和国交通运输部",
     "www": [
       {
-        "title": "通用",
-        "docs": "https://docs.rsshub.app/routes/government",
-        "source": [
-          "/:category"
-        ],
-        "target": "/gov/motparams=>{const category=params.category;return`/mot${category?`/${category}`:\"\"}`}"
-      },
-      {
         "title": "交通要闻",
         "docs": "https://docs.rsshub.app/routes/government",
         "source": [
-          "/jiaotongyaowen/"
+          "/xinwen/jiaotongyaowen/"
         ],
-        "target": "/gov/mot/jiaotongyaowen"
+        "target": "/gov/mot/xinwen/jiaotongyaowen"
       },
       {
         "title": "时政要闻",
         "docs": "https://docs.rsshub.app/routes/government",
         "source": [
-          "/shizhengyaowen/"
+          "/xinwen/shizhengyaowen/"
         ],
-        "target": "/gov/mot/shizhengyaowen"
+        "target": "/gov/mot/xinwen/shizhengyaowen"
       },
       {
-        "title": "重要会议",
+        "title": "政策解读",
         "docs": "https://docs.rsshub.app/routes/government",
         "source": [
-          "/zhongyaohuiyi/"
+          "/gongkai/zcjd/"
         ],
-        "target": "/gov/mot/zhongyaohuiyi"
+        "target": "/gov/mot/gongkai/zcjd"
+      },
+      {
+        "title": "预警提示",
+        "docs": "https://docs.rsshub.app/routes/government",
+        "source": [
+          "/fuwu/yujingtishi/"
+        ],
+        "target": "/gov/mot/fuwu/yujingtishi"
       }
     ]
   },
@@ -54586,6 +54637,22 @@
           "/channel/:id"
         ],
         "target": "/youtube/channel/:id"
+      },
+      {
+        "title": "Live Streams",
+        "docs": "https://docs.rsshub.app/routes/live",
+        "source": [
+          "/@:handle/streams"
+        ],
+        "target": "/youtube/streams/@:handle"
+      },
+      {
+        "title": "Live Streams",
+        "docs": "https://docs.rsshub.app/routes/live",
+        "source": [
+          "/channel/:handle/streams"
+        ],
+        "target": "/youtube/streams/:handle"
       },
       {
         "title": "Channel with user handle",

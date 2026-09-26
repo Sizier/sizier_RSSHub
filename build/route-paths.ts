@@ -1695,6 +1695,7 @@ export type RoutePath =
   | `/huggingface/blog-community/:sort?`
   | `/huggingface/blog-zh`
   | `/huggingface/daily-papers/:cycle?/:voteFliter?`
+  | `/huggingface/datasets/:author`
   | `/huggingface/models/:group`
   | `/huijin-inv/news`
   | `/huitun/xiaohongshu/:user_id`
@@ -2634,6 +2635,7 @@ export type RoutePath =
   | `/peopo/topic/:topicId?`
   | `/perplexity/blog`
   | `/perplexity/changelog`
+  | `/petapixel/:category?`
   | `/peterwunder/achievements`
   | `/phoronix/:category?/:topic?`
   | `/phrack/`
@@ -2847,6 +2849,7 @@ export type RoutePath =
   | `/rfi/:path{.+}?`
   | `/right/forum/:id?`
   | `/rmlt/idea`
+  | `/rockstargames/newswire`
   | `/rockstargames/socialclub/events/:game?`
   | `/rockthejvm/articles`
   | `/rodong/news/:language?`
@@ -3425,7 +3428,7 @@ export type RoutePath =
   | `/u3c3/search/:keyword/:preview?`
   | `/u9a9/:preview?`
   | `/u9a9/search/:keyword/:preview?`
-  | `/uber/blog/:compat?`
+  | `/uber/blog/:category?`
   | `/ucas/ai`
   | `/ucas/job/:type?`
   | `/uchicago/journals/current/:journal`
@@ -3684,6 +3687,7 @@ export type RoutePath =
   | `/xkb/:channel`
   | `/xmanhua/:uid`
   | `/xmind/mindmap/:lang?`
+  | `/xmlcom/`
   | `/xmnn/epaper/:id?`
   | `/xmnn/news/:category{.+}?`
   | `/xmu/aero/:type`
@@ -3780,6 +3784,7 @@ export type RoutePath =
   | `/youtube/community/:handle`
   | `/youtube/live/:username/:embed?`
   | `/youtube/playlist/:id/:embed?`
+  | `/youtube/streams/:handle/:routeParams?`
   | `/youtube/subscriptions/:embed?`
   | `/youtube/user/:username/:routeParams?`
   | `/youzan/goods/:id`
