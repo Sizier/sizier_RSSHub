@@ -55,6 +55,13 @@ export const Layout: FC = (props) => (
                     .replaceAll(/\s+/g, ' ')
                     .trim()}
             </style>
+            {/* Vercel Speed Insights */}
+            <script
+                dangerouslySetInnerHTML={{
+                    __html: `window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };`,
+                }}
+            />
+            <script defer src="/_vercel/speed-insights/script.js" />
         </head>
         <body className="antialiased min-h-screen text-zinc-700 dark:bg-zinc-900 dark:text-zinc-200 flex flex-col">{props.children}</body>
     </html>
